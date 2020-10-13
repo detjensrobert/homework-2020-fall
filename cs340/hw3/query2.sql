@@ -14,3 +14,4 @@
 --  Find the first name, last name, and age of people from bsg_people whose
 --  last name is not 'Adama' - 10 points
 -- Write your query BELOW this line.
+select `fname`,`lname`,`age` from bsg_people where `lname`!='Adama';

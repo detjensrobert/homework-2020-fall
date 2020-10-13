@@ -15,3 +15,5 @@
 -- list the row(s), with all the information for that planet. - 12 points
 
 -- Write your query BELOW this line.
+insert into bsg_planets (name, population, language, capital) values ('Mars', 2, 'Binary', 'Olympus Mons');
+select * from bsg_planets where `name`='Mars';

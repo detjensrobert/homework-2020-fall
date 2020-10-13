@@ -13,5 +13,6 @@
 --
 -- Update age of all those people whose last name is 'Adama' and first name is
 -- 'William' to 62 and then print all rows with all the columns which match the
--- same criteria, in a separate query. 
-
+-- same criteria, in a separate query.
+update bsg_people set age=62 where `lname`='Adama' and `fname`='William';
+select * from bsg_people where `lname`='Adama' and `fname`='William';

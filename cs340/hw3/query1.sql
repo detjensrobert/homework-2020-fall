@@ -12,3 +12,4 @@
 --
 -- Write a SQL query to find the population of the planet named 'Caprica' -- 10 points
 -- Write your query BELOW this line.
+select * from bsg_planets where `name`='Caprica';

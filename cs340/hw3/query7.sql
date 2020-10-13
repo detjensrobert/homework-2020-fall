@@ -11,7 +11,7 @@
 --  CONSTRAINT `bsg_people_ibfk_1` FOREIGN KEY (`homeworld`) REFERENCES `bsg_planets` (`id`) ON DELETE SET NULL ON UPDATE CASCADE
 -- ) ENGINE=InnoDB
 --
--- Delete all people whose age is NULL.  
+-- Delete all people whose age is NULL.
 -- Then, list all such people whose age is NOT NULL.
- 
-
+delete from bsg_people where `age` is NULL;
+select * from bsg_people where `age` is not NULL;

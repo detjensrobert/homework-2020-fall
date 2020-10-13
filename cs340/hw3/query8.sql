@@ -8,6 +8,11 @@
 -- Once you have created the table, run the query "DESCRIBE bsg_spaceship;"
 
 -- Write your queries BELOW this line
-
-
-
+create table `bsg_spaceship` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `separate_saucer_section` boolean DEFAULT false,
+  `length` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+);
+describe bsg_spaceship;

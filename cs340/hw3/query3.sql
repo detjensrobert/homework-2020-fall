@@ -13,4 +13,4 @@
 -- Find the name and population of the planets with a population larger than
 -- 2,600,000,000 - 10 points
 -- Write your query BELOW this line.
-
+select `name`,`population` from bsg_planets where `population` > 2600000000;
