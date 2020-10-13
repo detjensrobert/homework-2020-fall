@@ -11,7 +11,7 @@
 create table `bsg_spaceship` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
-  `separate_saucer_section` boolean DEFAULT false,
+  `separate_saucer_section` boolean NOT NULL DEFAULT false,
   `length` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 );
