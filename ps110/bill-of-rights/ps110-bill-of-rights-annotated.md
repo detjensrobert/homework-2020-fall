@@ -1,4 +1,4 @@
-# GWIA 2 Bill Of Rights
+# GWIA 2 Bill Of Rights -- Annotated Version
 
 This bill of rights was made with the knowledge that the region has an overwhelming majority of humans to zombies. The humans have expressed their desire to remain segregated from the zombies. However, it is important to ensure that humans and zombies are given equal rights and protections, in the event of future assimilation of these communities.
 
@@ -8,9 +8,9 @@ This bill of rights was made with the knowledge that the region has an overwhelm
 
 ## All citizens of our government shall have the following rights:
 
-- **Religion**: Citizens have the right to live and act according to their beliefs peacefully and publicly without discrimination or persecution from the government.
+- **Religion**: Citizens shall have the right to live and act according to their beliefs peacefully and publicly without discrimination or persecution from the government.
 
-  Citizens have the right to believe in any religion without discrimination and without persecution.
+  Citizens shall have the right to believe in any religion without discrimination and without persecution.
 
   #### Conflict
 
@@ -20,7 +20,7 @@ This bill of rights was made with the knowledge that the region has an overwhelm
 
   The government shall set up a committee to oversee RESPA (Religion, Expression and Speech, Press, and Assembly). However, trying to enforce this right by taking action may cause violation of this right as that may force citizens to express their religion if they didn’t want to.
 
-- **Speech and Expression**: Citizens have the right to speak according to their beliefs peacefully and publicly without censorship or retaliation from the government.
+- **Speech and Expression**: Citizens shall have the right to speak according to their beliefs peacefully and publicly without censorship or retaliation from the government.
 
   Everyone has the right to speak their minds without fear of retaliation from the government.
 
@@ -46,7 +46,7 @@ This bill of rights was made with the knowledge that the region has an overwhelm
 
 $\pagebreak$
 
-- **Public Utilities**: Citizens have the right to clean water and access sanitation facilities.
+- **Public Utilities**: Citizens shall have the right to clean water and access sanitation facilities.
 
   If citizens are giving up certain rights to the government to be governed, said government should provide access to basic necessities.
 
@@ -82,7 +82,7 @@ $\pagebreak$
 
   The government shall oversee the voting process and provide accessible voting places and alternative voting methods if a citizen is unable or unwilling to vote at a voting place.
 
-- **Speedy trial and no cruel and unusual punishment**: Citizens have the right to a trial conducted within a reasonable amount of time. Citizens shall not be subjected to any form of cruel or unusual punishment during questioning, detention, or incarceration during this trial.
+- **Speedy trial and no cruel and unusual punishment**: Citizens shall have the right to a trial conducted within a reasonable amount of time. Citizens shall not be subjected to any form of cruel or unusual punishment during questioning, detention, or incarceration during this trial.
 
   #### Confict
 
@@ -106,7 +106,7 @@ $\pagebreak$
 
 $\pagebreak$
 
-- **Attorney**: Citizens have the right to an attorney to represent them in a court of law.
+- **Attorney**: Citizens shall have the right to an attorney to represent them in a court of law.
 
   An attorney would allow a citizen to be advised on whether or not it would be in their interest to answer when they are questioned, as well as allowing the citizen to present their case in a clear manner to ensure that the trial will be fair.
 
@@ -118,7 +118,7 @@ $\pagebreak$
 
   The government shall have a Public Defenders office of attorneys for arrested citizens to use if they cannot afford or do not want to use a private attorney.
 
-- **Transparency**: Citizens have the right to know what the government is doing if it is in the public interest.
+- **Transparency**: Citizens shall have the right to know what the government is doing if it is in the public interest.
 
   #### Confict
 
@@ -128,7 +128,7 @@ $\pagebreak$
 
   The government shall make bi-annual reports available publically to its citizens. These reports shall include, but not be limited to, transcripts of hearings, budget allocations, and voting results.
 
-- **Digital Pivacy**: The government shall not force people to reveal private information or encrypted data on one’s computer or phone or knowingly introduce backdoors into software.
+- **Digital Pivacy**:Citizens shall have the right to digital privacy and security.
 
   If a government agency has access to break encryption on a device, the device is no longer secure from a cryptographic standpoint. The tools necessary to access an encrypted device without the original authentication method, as would be needed to access a device with a warrant, will never exclusively be in the hands of the government and will always eventually fall into the hands of a possibly malicious third party. By breaking encryption in this manner, the security of all communications will be compromised.
 
@@ -138,21 +138,21 @@ $\pagebreak$
 
   #### Enforcement
 
-  The government shall not add or mandate encryption backdoors be introduced nor shall the government create tools to break encryption.
+  The government shall not force people to reveal private information or encrypted data on one’s computer or phone or knowingly introduce backdoors into software. The government shall not add or mandate encryption backdoors be introduced nor shall the government create tools to break encryption.
 
-- **Private Pivacy**: The government shall not enter or search the private domain of a citizen without an appropriate warrant.
+- **Private Pivacy**: Citizens shall have the right to privacy within their private spaces.
 
   #### Confict
 
-  There may be times when the interest of the public seems more important than an individual’s right
+  There may be times when the interest of the public seems more important than an individual’s right.
 
   #### Enforcement
 
-  Law enforcement must acquire a warrant from a judge to enter/search one's private domain.
+  The government shall not enter or search the private domain of a citizen without an appropriate warrant. Law enforcement must acquire a warrant from a judge to enter/search one's private domain.
 
 $\pagebreak$
 
-- **Health Care**: The government shall not enter or search the private domain of a citizen without an appropriate warrant.
+- **Health Care**: Citizens shall have the right to healthcare and care in the case of an emergency.
 
   #### Confict
 
@@ -162,7 +162,7 @@ $\pagebreak$
 
   The government shall provide access to healthcare and emergency care, and allow anyone to enroll in their program.
 
-- **Life and Death**: Citizens have the right to live without fear of sudden or unreasonable death. Citizens have the right to assisted suicide provided they are mentally capable to choose so.
+- **Life and Death**: Citizens shall have the right to live without fear of sudden or unreasonable death. Citizens shall have the right to assisted suicide provided they are mentally capable to choose so.
 
   If one chooses to have assisted suicide either in their will or are mentally sound to choose it themselves, they should have the right to do so.
 
@@ -174,7 +174,7 @@ $\pagebreak$
 
   Those who state in their wills or are extremely sick can get an assisted suicide.
 
-- **Education**: Citizens shall be provided a K-12 education. Citizens have the right to pursue higher education regardless of background
+- **Education**: Citizens shall be provided a K-12 education.
 
   Public school curriculum shall be provided by the government, created by a board of teachers from the entire region. A good faith effort shall be made to have the curriculum be unbiased.
 
@@ -186,9 +186,9 @@ $\pagebreak$
 
   The government shall operate and manage schools sufficient enough to provide a K-12 education for all citizens enrolled in the public education program.
 
-- **Work**: Citizens have the right to find labour and be compensated equally
+- **Work**: Citizens shall have the right to find labour and be compensated equally.
 
-  The minimum wage should be enough for a person to reasonably live inhumane conditions
+  The minimum wage should be enough for a person to reasonably live in humane conditions.
 
   #### Confict
 
@@ -238,7 +238,7 @@ $\pagebreak$
 
 These duties shall come into affect when a citizen turns 18.
 
-- **Voting**: Citizens have the duty to vote in all elections.
+- **Voting**: Citizens shall have the duty to vote in all elections.
 
   Voting is an integral part of a functioning democracy, and as such all citizens should be all but required to participate.
 
@@ -250,7 +250,7 @@ These duties shall come into affect when a citizen turns 18.
 
   The government shall produce non-partizan campaigns reminding everyone to vote and restating its importance.
 
-- **Jury Duty**: Citizens have the duty to participate in a jury for a trial.
+- **Jury Duty**: Citizens shall have the duty to participate in a jury for a trial.
 
   Citizens will be entered into a pool to be randomly selected for jury duty.
 
