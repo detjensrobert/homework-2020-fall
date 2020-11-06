@@ -93,6 +93,9 @@ z.stats = (samp.means - mu)/(sigma/sqrt(n))
 hist(z.stats, main = "Histogram of 10000 z statistics", col = "violet",
      xlab = "z",breaks = 100)
 
+mean(z.stats)
+sd(z.stats)
+
 # Part 3d
 # Creates vector of 10000 p-values from 10000 z test statistics
 p.values = round(2*pnorm(-abs(z.stats)),2)
