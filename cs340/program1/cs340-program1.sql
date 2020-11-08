@@ -61,15 +61,17 @@ before insert on `WORKS_ON`
 for each row
 begin
   declare hoursWorked decimal(3,1);
+  declare errMsg varchar(100);
 
-  select sum(Hours)
+  select sum(Hours) + NEW.Hours
   into hoursWorked
   from WORKS_ON WO
   where WO.Essn = NEW.Essn
-  group by Essn;
+  group by NEW.Essn;
 
   if (hoursWorked > 40) then
-    signal SQLSTATE '45000' set MESSAGE_TEXT = 'ERR: Employee hours exceeds 40h';
+    set errMsg = concat('ERR: Employee hours exceeds 40h (now ', hoursWorked, 'h, adding ', NEW.Hours, 'h)');
+    signal SQLSTATE '45000' set MESSAGE_TEXT = errMsg;
   end if;
 end!
 delimiter ;

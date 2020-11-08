@@ -21,7 +21,7 @@ create table EMPLOYEE (
   Dno int(2) not null,
   constraint Fullname UNIQUE(Fname, Lname),
   primary key (Ssn),
-  foreign key (Dno) references DEPARTMENT(Dnumber)
+  foreign key (Dno) references DEPARTMENT(Dnumber) on update cascade on delete cascade
 )ENGINE = INNODB;
 
 create table PROJECT (
@@ -31,7 +31,7 @@ create table PROJECT (
   Dnum int(2) not null,
   primary key (Pnumber),
   unique (Pname),
-  foreign key (Dnum) references DEPARTMENT(Dnumber)
+  foreign key (Dnum) references DEPARTMENT(Dnumber) on update cascade on delete cascade
 )ENGINE = INNODB;
 
 create table WORKS_ON (
@@ -39,8 +39,8 @@ create table WORKS_ON (
   Pno int(2) not null,
   Hours decimal(3,1),
   primary key (Essn, Pno),
-  foreign key (Essn) references EMPLOYEE(Ssn),
-  foreign key (Pno) references PROJECT(Pnumber)
+  foreign key (Essn) references EMPLOYEE(Ssn) on update cascade on delete cascade,
+  foreign key (Pno) references PROJECT(Pnumber) on update cascade on delete cascade
 )ENGINE = INNODB;
 
 create table DEPENDENT (
@@ -50,14 +50,14 @@ create table DEPENDENT (
   Bdate date not null,
   Relationship varchar(8) not null,
   primary key (Essn, Dependent_name),
-  foreign key (Essn) references EMPLOYEE(Ssn)
+  foreign key (Essn) references EMPLOYEE(Ssn) on update cascade on delete cascade
 )ENGINE = INNODB;
 
 create table DEPT_LOCATIONS (
   Dnumber int(2) not null,
   Dlocation varchar(15) not null,
   primary key (Dnumber, Dlocation),
-  foreign key (Dnumber) references DEPARTMENT(Dnumber)
+  foreign key (Dnumber) references DEPARTMENT(Dnumber) on update cascade on delete cascade
 )ENGINE = INNODB;
 
 insert into DEPARTMENT values
@@ -118,7 +118,7 @@ insert into DEPT_LOCATIONS values
  (5,'Houston');
 
 alter table DEPARTMENT
- add constraint depemp foreign key (Mgr_ssn) references EMPLOYEE(Ssn);
+ add constraint depemp foreign key (Mgr_ssn) references EMPLOYEE(Ssn) on update cascade on delete cascade;
 
 alter table EMPLOYEE
- add constraint empemp foreign key (Super_ssn) references EMPLOYEE(Ssn);
+ add constraint empemp foreign key (Super_ssn) references EMPLOYEE(Ssn) on update cascade on delete cascade;
