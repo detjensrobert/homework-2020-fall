@@ -1,1 +1,3 @@
 *.pdf
+**/node_modules
+cs340/program2/config.php
