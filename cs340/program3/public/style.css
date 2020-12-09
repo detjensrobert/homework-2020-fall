@@ -1,5 +1,103 @@
-table, th, td{ /* default table */
-    border: 1px solid black;
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  background: #f9f9f9;
 }
 
-/* add css here */
+/*
+ *	=== HEADER ===
+ */
+
+header {
+  background-color: #2d2d2d;
+  display: flex;
+
+  align-items: center;
+  position: relative;
+
+  height: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+
+  box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+
+  margin-bottom: 20px;
+}
+
+.site-title {
+  margin: 10px;
+  display: inline;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.site-title > a {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+
+/*
+ *	=== FOOTER ===
+ */
+
+footer {
+  background-color: #2d2d2d;
+  align-items: center;
+  width: 100%;
+
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.footer-text {
+  color: #d64937;
+  display: inline-block;
+  margin: 5px 15px;
+}
+
+/*
+ *	=== BODY ===
+ */
+
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+th {
+  background-color: #535353;
+  color: #f9f9f9;
+}
+
+td {
+  background-color: #dcdcdc;
+  color: #2d2d2d;
+}

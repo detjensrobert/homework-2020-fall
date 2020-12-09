@@ -1,27 +1,83 @@
-<html>
-    <h3>Current Employees:</h3>
+<div class="container">
+  <h3 class='table-title'>Current Employees:</h3>
+  {{#if PNO}}
+    <h4>
+      Project {{PNO}}: {{Projectname}} (located in {{Projectlocation}})
+    </h4>
+  {{/if}}
 
-    <table>
-        <thead>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Salary</th>
-            <th>Dno</th>
-        </thead>
+  <table class='table'>
+    <thead class='table-header'>
+      <th class='table-header-item'>
+        First Name
+      </th>
+      <th class='table-header-item'>
+        Last Name
+      </th>
+      <th class='table-header-item'>
+        Salary
+      </th>
+      <th class='table-header-item'>
+        Dno
+      </th>
+    </thead>
 
-        <tbody>
-            {{#each employee}} 
-            <tr> 
-                <td>{{Fname}}</td> 
-                <td>{{Lname}}</td> 
-                <td>{{Salary}}</td> 
-                <td>{{Dno}}</td>
-            </tr> 
-            {{/each}} 
-        </tbody> 
-    </table>
+    <tbody class='table-body'>
+      {{#each employee}}
+        <tr class='table-row'>
+          <td class='table-row-item'>
+            {{Fname}}
+          </td>
+          <td class='table-row-item'>
+            {{Lname}}
+          </td>
+          <td class='table-row-item'>
+            {{Salary}}
+          </td>
+          <td class='table-row-item'>
+            {{Dno}}
+          </td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
 
-    {{!-- filter employees button here --}}
+  {{! filter employees button here }}
+  <form id="filter_employee" action="" method="">
+    <label>
+      Filter employees by project:
+    </label>
+    <select id="project_filter" name="project">
+      {{#each projects}}
+        <option value="{{Pnumber}}">
+          {{Pname}}
+        </option>
+      {{/each}}
+    </select>
 
-    {{!-- search employee by name button here --}}
-</html>
+    <input
+      type="button"
+      class="green_button"
+      value="Filter"
+      onclick="filterEmployeeByProject()"
+    />
+    <a href="/employee" class="green_button">
+      Clear Filters
+    </a>
+  </form>
+
+  <br />
+
+  <form id="search_employee" action="" method="">
+    <label>
+      Search by first name:
+    </label>
+    <input type="text" name="emp_search_name" id="emp_search_name" value="" />
+    <input
+      type="button"
+      class="green_button"
+      value="Search"
+      onclick="searchEmployeeByFirstName()"
+    />
+  </form>
+</div>

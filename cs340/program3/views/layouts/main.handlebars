@@ -2,20 +2,22 @@
 <html>
 	<head>
 		<title>Company DB P3</title>
-		<link rel="stylesheet" href="/style.css"> {{!-- link style.css file --}}
+		<link rel="stylesheet" href="/style.css">
     	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-		{{#each jsscripts}}
+			{{#each jsscripts}}
 			<script src="/static/{{this}}"></script>
-		{{/each}}
+			{{/each}}
 	</head>
 
 	<body>
-		<h1>Company Database</h1>
-		
-		{{{body}}} {{!-- displays contents from employee.handlebars (table and buttons) --}}
+		<header>
+			<h1 class='site-title'><a href="/employee">Company Database</a></h1>
+		</header>
 
-		<p>
-		<hr> {{!-- adds visual dividing line --}}
-		<i>By ONIDID</i>  
+		{{{body}}}
+
+    <footer>
+        <p class="footer-text">Created by: Robert Detjens (detjensr)</p>
+    </footer>
 	</body>
 </html>
