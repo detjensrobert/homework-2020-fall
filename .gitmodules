@@ -1,0 +1,3 @@
+[submodule "cs325/group-projects"]
+	path = cs325/group-projects
+	url = git@github.com:detjensrobert/cs325-group-projects.git
